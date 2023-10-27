@@ -142,11 +142,11 @@ First create an Account in Microsoft Azure:
 
 22. Run this query, and configure the settings as you like, visualization as Map, click Apply to save all your settings/configurations
 
-FAILED_RDP_WITH_GEO_CL
+`FAILED_RDP_WITH_GEO_CL
 | extend RawData = tostring(RawData) 
 | parse RawData with * "latitude:" latitude ",longitude:" longitude ",destinationhost:" destinationhost ",username:" username ",sourcehost:" sourcehost ",state:" state ", country:" country ",label:" label ",timestamp:" timestamp
 | summarize event_count=count() by sourcehost, latitude, longitude, label, destinationhost, country
-| where sourcehost != ""
+| where sourcehost != "" `
 
 ![Screen Shot 2023-10-27 at 5 27 22 PM](https://github.com/esmercene/Azure-Sentinel-RDP-Lab-/assets/91687288/d4f777d8-7b1b-4f94-a65d-ff296485fc77)
 
