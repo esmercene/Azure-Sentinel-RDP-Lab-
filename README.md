@@ -153,8 +153,7 @@ First create an Account in Microsoft Azure:
 
 23. Click done editing and let it run for a while to retrieve logs of attacks, refresh it to retrieve new log attacks.
 
-![Screen Shot 2023-10-27 at 5 29 55 PM](https://github.com/esmercene/Azure-Sentinel-RDP-Lab-/assets/91687288/c20b91ab-2914-44ce-a9cd-ef9924d46733)
-
+![Screen Shot 2023-10-28 at 3 18 20 AM](https://github.com/esmercene/Azure-Sentinel-RDP-Lab-/assets/91687288/a31c55b9-14e5-4241-9e90-b1fbd653fc5e)
 
 
 
